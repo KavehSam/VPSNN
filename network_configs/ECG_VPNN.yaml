@@ -1,0 +1,19 @@
+ Network:
+  epochs_cls: 1000
+  cls_test_steps: 10
+  es_patience_cls: 3
+  batch_size: 512
+  n_steps: 16 # timestep
+  dataset: "ecg_real"
+  in_channels: 1
+  data_path: ""
+  lr: 0.01
+  lr_decay: 0.0001
+  n_class: 2
+  vp_latent_dim: 4
+  model: "VPNN" 
+  load_best_state: False
+  penalty: 0.5
+  classifier_name: "FCVPTSNN"
+  init_vp: [0.001, 0.001]
+

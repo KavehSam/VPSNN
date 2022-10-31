@@ -12,7 +12,7 @@ A PyTorch package for architecting spiking and artifical variable projection neu
 
 # Installation
 
-Before running [the example notebook](notebooks/example_01.ipynb), you will need to install the python environment using:
+Before running [the example notebook](notebooks/vpsnn_cpu.ipynb), you will need to install the python environment using:
 
 >	conda env create -f environment.yml 
 
